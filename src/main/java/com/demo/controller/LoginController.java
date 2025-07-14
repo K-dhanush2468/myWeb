@@ -40,7 +40,11 @@ public class LoginController {
 			return b;
 		}
 	}
-	
+	@GetMapping(value = "hello")
+	public String hello() {
+
+	return "Hello";
+	}
 
 }
 
